@@ -1,0 +1,24 @@
+
+User-Agent:*
+Disallow: /graphic/
+Allow: /graphic/art/
+Allow: /graphic/banner/
+Allow: /graphic/icons/
+Allow: /graphic/screenshots/
+Disallow: /tmp/
+
+Sitemap: https://interplanety.ru/sitemap.xml
+
+User-agent: Yandex
+Disallow: /graphic/
+Allow: /graphic/art/
+Allow: /graphic/banner/
+Allow: /graphic/icons/
+Allow: /graphic/screenshots/
+Disallow: /tmp/
+
+Host: https://interplanety.ru
+
+Clean-param: sid /forum/index.php
+Clean-param: sid /forum/viewforum.php
+Clean-param: sid /forum/viewtopic.php

@@ -1,0 +1,26 @@
+<?php
+//---------------------------------
+// Конфиг
+//---------------------------------
+class Config
+{
+	public $Data;	// Массив с настройками
+
+	public function __construct($File) {
+		// Конструктор
+		$this->Data = array();
+		if(file_exists($File)==true) $this->LoadConfig($File);
+	}
+
+	public function __destruct() {
+		// Деструктор
+		unset($this->Data);
+	}
+	
+	private function LoadConfig($File) {
+		// Загрузка данных из файла в массив
+		$XML = simplexml_load_file($File);
+		$this->Data = json_decode(json_encode((array)$XML), 1);
+	}
+}
+?>

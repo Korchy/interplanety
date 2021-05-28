@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<db>
+		<host>localhost</host>
+		<user>user</user>
+		<password>password</password>
+		<base>vn</base>
+	</db>
+	<facebook>
+		<postapp>
+			<id>111</id>
+			<secret>222</secret>
+			<businessid>333</businessid>
+		</postapp>
+		<loginapp>
+			<id>444</id>
+			<secret>555</secret>
+		</loginapp>
+	</facebook>
+</config>

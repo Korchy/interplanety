@@ -1,0 +1,27 @@
+#scrollContainer,
+#scrollContainer2{
+width:850px;
+overflow:hidden;
+white-space:nowrap;
+}
+#scrollContainer img,
+#scrollContainer2 img{
+background:#fff url(graphic/screenshots/gallery/bg.gif) repeat-x 0 100%;
+padding:1px;
+margin:5px 5px 5px 0;
+border:1px solid #ccc;
+border-right:1px solid #777;
+border-bottom:1px solid #777; 
+}
+#buttonScrollLeft,
+#buttonScrollRight,
+#buttonScrollLeft2,
+#buttonScrollRight2{
+cursor:pointer;
+}
+#buttonScrollLeft.inactive,
+#buttonScrollRight.inactive,
+#buttonScrollLeft2.inactive,
+#buttonScrollRight2.inactive{
+cursor:default;
+}

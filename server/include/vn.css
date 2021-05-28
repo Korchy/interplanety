@@ -1,0 +1,31 @@
+/* для всех */
+a:link{
+	color:f8d830;
+}
+a:active{
+	color:f8d830;
+}
+a:visited{
+	color:f8d830;
+}
+a:hover{
+	color:f8d830;
+}
+body{
+	background-color:ffffff;
+	color:f8d830;
+}
+table {
+	background-repeat: no-repeat;
+	padding: 1px;
+	border-spacing: 1px;
+}
+form {
+	margin: 0px;
+}
+input {
+	vertical-align: middle;
+}
+div {
+	display: inline-block;
+}
